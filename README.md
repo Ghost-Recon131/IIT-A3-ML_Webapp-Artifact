@@ -17,7 +17,7 @@ npm start
 This website is also hosted on AWS using a custom domain with SSL certificate for HTTPS. Note I will likely take down the
 AWS hosting following the release of results for Semester 1 2022 to avoid accidentally going beyond the AWS free tier limits. 
 
-URL: TBD
+URL: https://reactfrontend.s3843790-cc.com/
 
 
 ## Dockerfile
