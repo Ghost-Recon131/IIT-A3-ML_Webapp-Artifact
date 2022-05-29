@@ -12,6 +12,10 @@ function App() {
           <p>
               Further implementation to be done
           </p>
+
+          <p>
+              This line has been automated with CodePipeline.
+          </p>
       </header>
     </div>
   );
