@@ -7,9 +7,8 @@ jobs:
       - image: circleci/node:17
     steps:
       - checkout:
-          path: ~/repo/ml-webapp/ml-webapp
-      - run: "ls"
-      - run: "npm install"
+          path: ~/repo/ml-webapp
+      - run: cd /ml-webapp && npm install
 workflows:
   version: 2
   build:
