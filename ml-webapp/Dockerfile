@@ -2,7 +2,7 @@
 FROM node:17.9.0-alpine
 
 # Set build directory
-WORKDIR /frontend
+WORKDIR /ml-webapp
 
 # Add contents of "/app/node_modules/.bin" to $PATH
 ENV PATH="./node_modules/.bin:$PATH"
@@ -13,7 +13,7 @@ COPY package-lock.json ./
 RUN npm i
 
 # Add the React App
-COPY .. ./
+COPY . .
 
 # Expose port 3000 to local port
 EXPOSE 3000
