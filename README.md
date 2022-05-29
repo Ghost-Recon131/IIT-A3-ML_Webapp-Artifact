@@ -28,3 +28,8 @@ To do this on your computer, ensure docker is installed & running then run the f
 ```shell
 docker build -t mlwebapp .
 ```
+
+To run the Docker image on your computer, use the following:
+```shell
+docker run -it -p  3000:3000 mlwebapp
+```
