@@ -9,13 +9,11 @@ function App() {
           This is starting code for our Webapp artifact
         </p>
 
-          <p>
-              Further implementation to be done
-          </p>
+          <p> Further implementation to be done </p>
 
-          <p>
-              This line has been automated with CodePipeline.
-          </p>
+          <p> This line has been automated with CodePipeline. </p>
+
+          <p> Running Test 2 </p>
       </header>
     </div>
   );
