@@ -2,11 +2,12 @@ version: 2.1
 
 jobs:
   build-frontend:
-    working_directory: ~/ml-webapp
+    working_directory: ~/repo/ml-webapp
     docker:
       - image: circleci/node:17
     steps:
       - checkout
+      - run: "ls"
       - run: "npm install"
 workflows:
   version: 2
