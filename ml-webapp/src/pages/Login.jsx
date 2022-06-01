@@ -21,7 +21,7 @@ export default function Login() {
 
                 <div className={sty.btnBox}>
                     <div onClick={() => {
-                        navigate('/')
+                        navigate('/main')
                     }} className={sty.btn}>
                         Login
                     </div>

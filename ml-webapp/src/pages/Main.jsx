@@ -14,28 +14,28 @@ export default function Main() {
         <div className={sty.box}>
             <div className={sty.headBox}>
                 <div onClick={() => {
-                    navigate('/')
+                    navigate('/main')
                 }} className={sty.headItem} style={{
                     borderRight: 0
                 }}>
                     Home
                 </div>
                 <div onClick={() => {
-                    navigate('/manageDataLogs')
+                    navigate('/main/manageDataLogs')
                 }} className={sty.headItem} style={{
                     borderRight: 0
                 }}>
                     Manage Data Logs
                 </div>
                 <div onClick={() => {
-                    navigate('/manageMLModel')
+                    navigate('/main/manageMLModel')
                 }} className={sty.headItem} style={{
                     borderRight: 0
                 }}>
                     Manage ML Model
                 </div>
                 <div onClick={() => {
-                    navigate('/newMLModel')
+                    navigate('/main/newMLModel')
                 }} className={sty.headItem}>
                     New ML Model
                 </div>
