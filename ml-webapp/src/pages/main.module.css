@@ -1,0 +1,22 @@
+.box{
+
+}
+.headBox{
+    display: flex;
+    align-items: center;
+
+}
+.headItem{
+    flex: 1;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+.borderRight{
+    border-right: 0;
+}

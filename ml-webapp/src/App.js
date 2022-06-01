@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Main from './pages/Main';
+import Login from './pages/Login';
+import ForgotPassword from './pages/ForgotPassword';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          This is starting code for our Webapp artifact
-        </p>
-
-          <p> Further implementation to be done </p>
-
-          <p> This line has been automated with CodePipeline. </p>
-
-          <p> Running Test 2 </p>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path='/*' element={<Main />} />
+        <Route path='/main/*' element={<Main />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/forgotPassword' element={<ForgotPassword />} />
+      </Routes>
+    </Router>
+  ); 
 }
 
 export default App;

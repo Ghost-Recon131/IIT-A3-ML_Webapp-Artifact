@@ -1,0 +1,65 @@
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box h1{
+    padding-top: 20px;
+}
+
+.progressItem{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+.progressLabel{
+    width: 230px;
+    margin-right: 40px;
+    text-align: right;
+}
+.progressBox{
+    width: 270px;
+    height: 40px;
+    border: 4px solid #666;
+    border-radius: 21px;
+    position: relative;
+}
+.progressBlock{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #73c20f;
+    border-radius: 21px;
+}
+.progressTxt{
+    position: absolute;
+    right: 0;
+    top: -25px;
+    color: #73c20f;
+
+}
+
+.bottomBox{
+    display: flex;
+    margin-top: 25px;
+}
+.bottomItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bottomItemBottom{
+    display: flex;
+    align-items: center;
+}
+.bottomItem h3{
+    margin-bottom: 15px;
+}
+.bottomItemBottom img{
+    margin-right: 10px;
+}

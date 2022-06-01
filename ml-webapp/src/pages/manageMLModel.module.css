@@ -1,0 +1,41 @@
+.box{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.leftItem{
+    display: flex;
+    align-items: center;
+    font-size: 0;
+    width: 375px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.leftItem div, .leftItem span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.imgBox{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.desc{
+    font-size: 12px;
+}
