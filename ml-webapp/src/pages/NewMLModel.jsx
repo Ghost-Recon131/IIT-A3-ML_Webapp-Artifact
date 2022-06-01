@@ -16,9 +16,10 @@ export default function NewMLModel() {
                         Select Model Type
                     </div>
                     <select name="" id="">
-                        <option value="">Model Type 1</option>
-                        <option value="">Model Type 2</option>
-                        <option value="">Model Type 3</option>
+                        <option value="">Intrusion Detection</option>
+                        <option value="">Malware Detection</option>
+                        <option value="">Spam Detection</option>
+                        <option value="">Anomaly Detection</option>
                     </select>
                 </div>
                 <div className={sty.inputBox}>
@@ -26,9 +27,11 @@ export default function NewMLModel() {
                         Select Learning technique(s)
                     </div>
                     <select name="" id="">
-                        <option value="">Learning technique 1</option>
-                        <option value="">Learning technique 2</option>
-                        <option value="">Learning technique 3</option>
+                        <option value="">Support Vector Machine (SVM)</option>
+                        <option value="">Decision Tree (DT)</option>
+                        <option value="">Naïve Bayesis (NB)</option>
+                        <option value="">Random Forest (RF)</option>
+                        <option value="">Deep Belief Network (DBN)</option>
                     </select>
                 </div>
                 <div className={sty.inputBox}>
