@@ -6,6 +6,7 @@ import ManageMLModel from './ManageMLModel';
 import NewMLModel from './NewMLModel';
 
 import sty from './main.module.css';
+import Login from "./Login";
 
 export default function Main() {
     let navigate = useNavigate();
@@ -39,6 +40,11 @@ export default function Main() {
                 }} className={sty.headItem}>
                     New ML Model
                 </div>
+                <div onClick={() => {
+                    navigate('/Login')
+                }} className={sty.headItem}>
+                    Logout
+                </div>
             </div>
 
             <div className={sty.contentBox}>
@@ -47,6 +53,7 @@ export default function Main() {
                     <Route path='manageDataLogs' element={<ManageDataLogs />} />
                     <Route path='manageMLModel' element={<ManageMLModel />} />
                     <Route path='newMLModel' element={<NewMLModel />} />
+                    <Route path='login' element={<Login />} />
                 </Routes>
             </div>
 
